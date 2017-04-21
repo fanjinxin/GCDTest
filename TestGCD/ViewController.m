@@ -29,6 +29,7 @@
     [self syncSerial];
     [self ayncSerial];
     [self ayncCurrent];
+    self.view.backgroundColor = [UIColor redColor];
 }
 //同步串行的,没有多开线程,从上而下执行,必须是上个线程执行完后,才能执行下一个线程
 - (void)syncSerial {
